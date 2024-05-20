@@ -1,0 +1,86 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #9b89c7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Welcome Section Styles */
+#welcome {
+    background-color: #e00000;
+    padding: 50px 0;
+}
+
+#welcome .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #333;
+    color: #692020;
+    padding: 50px 0;
+}
+
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Image Styles */
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
